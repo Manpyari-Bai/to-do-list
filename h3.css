@@ -1,0 +1,93 @@
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/849/423/small_2x/fluid-abstract-blue-background-free-vector.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:rgb(30, 25, 25, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+li .task-text {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+li button {
+    background-color: #d9534f;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c9302c;
+}
+
+.h {
+    color: aqua;
+}
+
+button#resetBtn {
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
